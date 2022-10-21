@@ -129,8 +129,8 @@ def consulta_general():
                     j += 1
                 if (cont > 0):
                     prom = prom / cont
-                print("CONTROL: ", respuesta["resultado"][i]["control"], " NOMBRE: ",
-                      respuesta["resultado"][i]["nombre"], " PROMEDIO: ", prom)
+                print( respuesta["resultado"][i]["control"],")",
+                      respuesta["resultado"][i]["nombre"], "   --- ", prom)
                 i += 1
 
 def eliminar_estudiante():

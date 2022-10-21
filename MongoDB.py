@@ -80,7 +80,8 @@ class PyMongo():
             alumno["nombre"]=nom
             self.insertar_estudiante(alumno)
             alumno.clear()
-        print("Insercion Terminada")
+
+
 
     def actualizar(self, collection, filtro, new_values):
         response = {"status": False}
@@ -112,7 +113,7 @@ def cargar_estudiantes():
 
 
 
-obj_MongoDB = PyMongo(variablesMongo)
-obj_MongoDB.conectar_mongodb()
-obj_MongoDB.cargar_Alumnos()
+#obj_MongoDB = PyMongo(variablesMongo)
+#obj_MongoDB.conectar_mongodb()
+#obj_MongoDB.cargar_Alumnos()
 
